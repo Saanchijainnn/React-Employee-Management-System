@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className="flex items-center justify-end ">
-        <h1>Hello<br /> Saanchi 👋</h1>
-    <button>Log out</button>
+    <div className="flex items-center justify-between items-end  ">
+        <h1 className="text-2xl font-medium ">Hello<br /><span className="text-3xl font-semibold"> Saanchi 👋 </span></h1>
+    <button className="bg-red-400 font-medium  text-white px-5 py-2 rounded-sm">Log out</button>
     </div>
   )
 }
